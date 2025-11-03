@@ -1,1 +1,33 @@
+# === Python cache & build ===
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+*.egg
+*.egg-info/
+dist/
+build/
+
+# === Environnement virtuel ===
+.env/
+venv/
+ENV/
+env/
+.venv/
+
+# === Fichiers de configuration sensibles ===
 config.yaml
+delete_contacts.session
+
+# === Fichiers temporaires / système ===
+.DS_Store
+Thumbs.db
+
+# === IDE / éditeurs ===
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# === Logs ===
+*.log
